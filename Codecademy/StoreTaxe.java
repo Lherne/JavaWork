@@ -24,7 +24,7 @@ public class StoreTaxe {
   
     // main method
     public static void main(String[] args) {
-      StoreTaxe lemonadeStand = new Store("Lemonade", 3.75);
+      StoreTaxe lemonadeStand = new StoreTaxe("Lemonade", 3.75);
       double lemonadePrice = lemonadeStand.getPriceWithTax();
       System.out.println(lemonadePrice);
     }
